@@ -1,0 +1,22 @@
+{
+  "mountains": {
+    "taishan": {"name":"泰山","name_cn":"东岳泰山","hub_station":"泰安站","hub_code":"TA","hike_up_h":5.0,"hike_down_h":3.0,"night_climb":true,"open_hour":5,"close_hour":24,"ticket_yuan":115,"cable_car_down_yuan":100},
+    "huashan": {"name":"华山","name_cn":"西岳华山","hub_station":"华山北站","hub_code":"HS","hike_up_h":6.0,"hike_down_h":4.0,"night_climb":true,"open_hour":0,"close_hour":24,"ticket_yuan":160,"cable_car_down_yuan":140},
+    "hengshan_s": {"name":"衡山","name_cn":"南岳衡山","hub_station":"衡山西站","hub_code":"HX","hike_up_h":5.0,"hike_down_h":3.0,"night_climb":false,"open_hour":7,"close_hour":17.5,"ticket_yuan":110,"cable_car_down_yuan":44},
+    "hengshan_n": {"name":"恒山","name_cn":"北岳恒山","hub_station":"大同南站","hub_code":"DT","hike_up_h":2.5,"hike_down_h":1.5,"night_climb":false,"open_hour":8,"close_hour":17.5,"ticket_yuan":45,"cable_car_down_yuan":70},
+    "songshan": {"name":"嵩山","name_cn":"中岳嵩山","hub_station":"洛阳龙门站","hub_code":"LY","hike_up_h":3.5,"hike_down_h":2.5,"night_climb":false,"open_hour":8,"close_hour":18,"ticket_yuan":50,"cable_car_down_yuan":0}
+  },
+  "additional_transfer_h": {
+    "TA":{"station_to_mountain":0.5,"mountain_to_station":0.5,"local_bus_cost":2},
+    "HS":{"station_to_mountain":0.3,"mountain_to_station":0.3,"local_bus_cost":15},
+    "HX":{"station_to_mountain":0.4,"mountain_to_station":0.4,"local_bus_cost":6},
+    "DT":{"station_to_mountain":2.0,"mountain_to_station":2.0,"local_bus_cost":20},
+    "LY":{"station_to_mountain":1.5,"mountain_to_station":1.5,"local_bus_cost":20},
+    "PDF":{"station_to_mountain":0.5,"mountain_to_station":0.5,"local_bus_cost":30}
+  },
+  "time_cost_per_hour_yuan": 0,
+  "min_transfer_buffer_h": 1.5,
+  "speed_factor": 1.0,
+  "accommodation_per_night_yuan": 50,
+  "food_per_day_yuan": 30
+}
